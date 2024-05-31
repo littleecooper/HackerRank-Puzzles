@@ -3,6 +3,7 @@ I am currently using a platform called HackerRank to test my Python programming 
 
 One of the puzzles on HackerRank focused on nested lists and the aim of the puzzle was to input data around students and their test scores and create a piece of code in Python to retrieve the two scores which were the second lowest. As there was multiple low scores, HackerRank requested that we were to pull the name of these students out of the data in an alphabetical order. Below is the code I used to acheive this. 
 
+```
 if __name__ == '__main__':
     name_list = []
     score_list = []
@@ -26,3 +27,4 @@ if __name__ == '__main__':
 
     for name in name_list:
         print(name)
+```
